@@ -4,11 +4,11 @@ There are two scripts:
 
 ## 1. A python script to retrieve and report information about active vehicle for a bus line.
 
-`python show_bus_locations.py <MTA_KEY> <BUS_LINE>`
+`python show_bus_locations_amk742.py <MTA_KEY> <BUS_LINE>`
 
 For example <BUS_LINE> could be B52:
 
-`python show_bus_locations.py xxxxx-xxxxx-xxxxx-xxxxx-xxxxx B52`
+`python show_bus_locations_amk742.py xxxxx-xxxxx-xxxxx-xxxxx-xxxxx B52`
 
 The above command fetches data from the MTA website through the SIRI API using the provided key and return information on all available vehicles for the bus line <BUS_LINE> (e.g. B52).
 
@@ -32,7 +32,7 @@ Bus 4 is at latitude 40.686839 and longitude -73.964694
 ## 2. A python script that displays information on the next stop location of all buses of a given line.
 
 ```
-python get_bus_info.py xxxx-xxxx-xxxx-xxxx-xxxx <BUS_LINE> <BUS_LINE>.csv
+python get_bus_info_amk742.py xxxx-xxxx-xxxx-xxxx-xxxx <BUS_LINE> <BUS_LINE>.csv
 ```
 
 __it outputs to a CSV file named \<BUS_LINE>.csv__:
